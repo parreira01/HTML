@@ -1,0 +1,67 @@
+
+body{
+    margin: 0 auto; /*configura as margens do body em 0px e o auto configura o conteúdo no centro da página*/
+    width: 960px;/*configura a largura do body em 960px*/
+    background-color:#e1e18f;;/*configura a cor de fundo do body*/
+    font-size: 15px;
+    text-align: justify;/*alinha o texto escrito, nesse caso justificou o texto de todo o body*/
+}
+
+#cab { /* a #cab identifica o elemento header id="cab" na pagina1.html*/
+        background-color: #18b30a;
+        padding: 10px 20px 10px 20px; /*acolchoa (faz entorno dos 4 lados) o conteúdo, nesse caso da header #cab, os valores são referentes ao topo(10px), right/direita(20px), botton/base(10px) e left/esquerda(20px) */
+        border-radius: 0px 0px 20px 20px;/*comando para arredondar os cantos do padding criado, usamos 0px para o canto superior esquerdo(se), 0px para o canto(sd), 20px para o canto inferior direito(id) e 20px para o canto(ie)*/
+        color:#fff;/* cor da fonte do conteúdo*/
+    }
+/*OBS: no no html quando for utilizado id como elemento, no css ele será identificado com o símbolo # e quando for class no html ele será identificado no css com um . */
+
+#cab h1 {
+    text-align: center;
+}
+
+#parques {
+    background-color: #505080;
+    padding: 0px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+footer { /* como há apenas um footer na página não é necessario atribuir um identificador*/
+    background-color: #18b30a;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+    color: #fff;
+    margin-top: 20px; /* dá espaço da margem superior do footer, separando a imagem da tag anterior */
+    text-align: center; /*alinha o texto escrito (direita, esquerda, centro ou justifica), nesse caso centralizou*/
+}
+
+#parques img { /* referencia todas as imagens da section parques */
+    float:left; /* propriedade que faz o elemento flutuar, basicamente ficarão alinhadas a direita ou esquerda do elemento subsequente*/
+    margin: 0px 10px 0 px 0px;
+    width: 150px;
+}
+
+.vazio {
+    clear: both;/* a propriedade clear deverá ser usada todas as vezes que usar um float ela que definirá a posição do texto subsequente em relação ao elemento que será flutuado*/
+}
+
+#parques article{
+    border-bottom: 1px dashed #a0ffff; /*configura a largura da borda(1px), o tipo da borda(dashed-pontilhada) e a cor da borda(#a0ffff)*/
+    padding-bottom: 10px;
+}
+
+#parques h1, #parques h2{
+    color: #fff;
+}
+
+#parques p{
+    text-align: justify;
+    color: #a0ffff
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 15px;
+}
